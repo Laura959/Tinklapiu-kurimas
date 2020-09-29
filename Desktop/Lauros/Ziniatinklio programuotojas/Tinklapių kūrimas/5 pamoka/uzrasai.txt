@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="css/styles.css"> - ikeliame css i html dokumenta
+
+
+
+Pacioje pabaigoje(padeda uzkrauti css ir html kartu)
+<script src=""></script>
+
+
+
+
+../ - griztame atgal i direktorija

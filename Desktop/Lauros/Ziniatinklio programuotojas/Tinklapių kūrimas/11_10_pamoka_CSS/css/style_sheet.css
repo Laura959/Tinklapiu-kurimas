@@ -1,0 +1,96 @@
+.p1 {
+font-family: Arial, Helvetica, sans-serif;
+}
+.sp1 {
+font-family: 'Noto Sans JP', sans-serif;
+}
+.p2 {
+font-size: 24px;
+}
+.sp2 {
+color: brown;
+}
+.p3 {
+font-size: 40%;
+}
+.sp3 {
+display: block;
+}
+.p4 {
+border: 4px solid black;
+font-size: 30px;
+color: crimson;
+}
+.sp4 {
+font-size: 20px;
+}
+.p5 {
+font-style: italic;
+}
+.sp5 {
+font-weight: bold;
+}
+.p6 {
+text-decoration: underline;
+}
+.sp6 {
+text-decoration: line-through;
+}
+.p7 {
+line-height: 26px;
+}
+.sp7 {
+text-transform: uppercase;
+}
+.p8 {
+text-indent: 30px;
+}
+.sp8 {
+background-color: yellow;
+}
+.p9 {
+background-color: rebeccapurple;
+}
+.p9 span {
+background-color: white;
+}
+.p10 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: palegoldenrod;
+font-size: 30px;
+}
+.p10 span {
+text-decoration: underline;
+}
+h2 {
+font-size: 40px;
+font-weight: normal;
+color: cadetblue;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+.div1 {
+width: 50%;
+background-color: darkblue;
+height: 200px;
+}
+.div2 {
+width: 50%;
+background-color: rgb(0, 139, 81);
+height: 200px;
+}
+.div3 {
+width: 50%;
+background-color: rgb(3, 170, 100);
+height: 200px;
+padding: 20px;
+border: 5px solid black;
+}
+.div4 {
+width: 50%;
+background-color: rgb(30, 199, 128);
+height: 200px;
+padding: 20px;
+border: 5px solid black;
+box-sizing: border-box;
+}

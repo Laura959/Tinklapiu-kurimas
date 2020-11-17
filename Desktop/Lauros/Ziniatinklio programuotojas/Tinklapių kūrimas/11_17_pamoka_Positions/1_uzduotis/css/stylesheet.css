@@ -1,0 +1,80 @@
+body {
+    margin: auto;
+    width: 40%;
+    
+}
+
+h1 {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pagrindinis {
+    background: tomato;
+    width: 500px;
+    height: 400px;
+    border: 1px solid tomato;
+    position: relative;
+    
+}
+
+.pagr {
+    text-align: center;
+}
+
+.kv {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    background-color:white;
+}
+
+.dv {
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color:white;
+}
+
+.ka {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color:white;
+}
+
+.da {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    background-color:white;
+}
+
+.uzd2 {
+    margin-top: 20px;
+    background: tomato;
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+
+.center {
+    height:200px;
+    width:200px;
+    background: white;
+    position: absolute;
+    z-index: 1;
+    left: calc(50% - 100px);
+    top:calc(50% - 100px);
+}

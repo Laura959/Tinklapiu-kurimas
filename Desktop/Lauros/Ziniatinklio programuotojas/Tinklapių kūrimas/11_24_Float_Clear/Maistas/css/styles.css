@@ -1,0 +1,55 @@
+body {
+    width: 50%;
+    margin: auto;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    padding: 0 30px 10px 0px;
+}
+
+.first, .second {
+    padding-top: 4px;
+}
+.first, .third {
+    float:left;
+}
+
+.second, .fourth {
+    float: right;
+    padding-left: 30px;
+    padding-right: 0px;
+}
+
+.third {
+    padding-top: 20px;
+}
+
+.fourth {
+    padding-top: 20px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.left {
+   float: left;
+   display: inline-block;
+   width: 49%;
+}
+
+.right {
+   float: right;
+   display: inline-block;
+   width: 49%;
+}
+

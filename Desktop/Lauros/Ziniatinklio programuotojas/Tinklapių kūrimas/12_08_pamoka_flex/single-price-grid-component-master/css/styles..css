@@ -1,0 +1,108 @@
+body {
+    background-color: hsl(204, 43%, 93%);
+    width: 80%;
+    margin: auto;
+    font-size: 15px;
+}
+
+p {
+    margin-bottom: 1%;
+    margin-top: 0;
+}
+
+.wholeCard {
+    width: 45%;
+    min-width:600px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    margin-top: 10%;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 15px -7px rgba(0,0,0,0.71); 
+    box-shadow: 4px 4px 15px -7px rgba(0,0,0,0.71);
+}
+
+h2 {
+    color:  hsl(179, 62%, 43%);
+    font-weight: 700;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    margin-top: 6%;
+    width:210px;
+    height: 48px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+    border: 3px solid hsl(179, 61%, 41%);
+}
+
+.d30 {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.container{
+    display: flex;
+}
+
+.secondBlock{
+    background-color: hsl(179, 62%, 43%);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 15px 30px 30px 30px;
+    border-radius: 0 0 0 10px;
+    text-align: left;
+}
+
+.span29 {
+    font-size: 27px;
+    font-weight: 700;
+    padding-right: 2%;
+    line-height: 1.5;
+}
+
+.perMonth {
+    position: relative;
+    bottom: 4px;
+    left: 6px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.603);
+}
+
+.thirdBlock {
+    background-color: hsl(179, 62%, 47%);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 15px 30px 30px 30px;
+    border-radius: 0 0 10px 0;
+    text-align: left;
+}
+
+.small {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.712);
+}
+
+.hh {
+    color: hsl(218, 22%, 67%);
+    font-size: 16px;
+}
+
+.whitebg {
+    padding: 20px 30px 40px 30px;
+    text-align: left;
+}
+
+.monthly {
+    margin-bottom: 4%;
+}
+
+

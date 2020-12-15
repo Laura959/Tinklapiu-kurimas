@@ -54,7 +54,7 @@ h1, h3, h2 {
     flex-direction: column;
 }
 
-.Suprevisor, .Calculator, .column {
+.Supervisor, .Calculator, .column {
     width: calc(100%/3)-30px);
     min-width: 300px;
     margin: 15px;
@@ -96,3 +96,80 @@ h1, h3, h2 {
     box-sizing: border-box;
     text-align: left;
 }
+
+@media all and (max-width: 780px) and (min-width:481px) {
+
+    .slim {
+        font-size: 32px;
+    }
+
+    .Powered {
+        font-size: 32px;
+    }
+
+    .g {
+        display: inline-block;
+        position: relative;
+        bottom: 8%;
+        left: 62%;
+    }
+
+    .Karmap {
+        margin-bottom: 16%;
+    }
+
+    .Karma {
+        padding-bottom: 0;
+    }
+
+    h4 {
+        width: 95%;
+        margin-left: 3%;
+    }
+
+    .box {
+        min-width: 235px;
+        max-height: 245px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .column {
+        flex-direction: row;
+    }
+
+    .Team {
+        margin-right: 8%;
+        margin-bottom: 3%;
+    }
+
+    .Calculator {
+        margin-top: 0px;
+    }
+}
+    
+    @media all and (max-width: 480px) {
+        .box {
+            width: 100%;
+            min-width: 350px;
+            
+        }
+        .container {
+            flex-direction: column;
+        }
+
+        .slim {
+            font-size: 28px;
+        }
+
+        .Powered {
+            font-size: 28px;
+        }
+
+        h4 {
+            width: 100%;
+            margin-left: 1%;
+        }
+    }

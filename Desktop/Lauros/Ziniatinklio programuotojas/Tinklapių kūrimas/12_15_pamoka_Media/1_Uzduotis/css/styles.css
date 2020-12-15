@@ -1,0 +1,53 @@
+body {
+    background: lightblue;
+}
+
+div {
+    display: inline-block;
+    width: calc((100%/4) - 4px);
+    padding: 10px 20px 10px 20px;
+    box-sizing: border-box;
+}
+
+@media all and (max-width: 1024px) {
+    h1 {
+        color: coral;
+    }
+
+    body {
+        background-color: lightyellow;
+    }
+
+    div {
+        width: calc((100%/3) - 4px);
+    }
+}
+
+@media all and (max-width: 780px) {
+    h1 {
+        color: darkblue;
+    }
+
+    body {
+        background-color: coral;   
+    }
+
+    div {
+        width: calc((100%/2) - 4px);
+    }
+}
+
+@media all and (max-width: 480px) {
+    h1 {
+        color: purple;
+    }
+
+    body {
+        background-color: rgb(132, 199, 221);       
+    }
+
+    div {
+        width: 100%;
+    }
+}
+

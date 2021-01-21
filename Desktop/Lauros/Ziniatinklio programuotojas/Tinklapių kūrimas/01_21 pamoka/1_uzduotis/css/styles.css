@@ -1,0 +1,50 @@
+body {
+    background: rgb(217, 239, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.figura {
+    width: 400px;
+    height: 400px;
+    background: orange;
+    animation-name: formos;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(1,.015,.295,1.225); 
+}
+
+
+@keyframes formos {
+    0% {
+        border-radius: 0 0 0 0;
+        background: orange;
+        transform: rotate(0deg);
+    }
+    25% {
+        border-radius: 50% 0 0 0;
+        background: rgb(233, 152, 1);
+        transform: rotate(45deg);
+    }
+    50% {
+        border-radius: 50% 50% 0 0;
+        background: rgb(197, 128, 0);
+        transform: rotate(90deg);
+    }
+    75% {
+        border-radius: 50% 50% 50% 0;
+        background: rgb(218, 147, 16);
+        transform: rotate(135deg);
+    }
+    100% {
+        border-radius: 50% 50% 50% 50%;
+        background: rgb(255, 185, 54);
+        transform: rotate(180deg);
+    }
+
+}

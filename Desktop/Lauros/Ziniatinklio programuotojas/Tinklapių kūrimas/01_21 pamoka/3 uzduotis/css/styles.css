@@ -1,0 +1,55 @@
+body {
+    background: rgb(196, 196, 196);
+}
+
+div {
+    color: coral;
+    font-size: 140px;
+    text-shadow: 2px 2px #92492f;
+    margin-left: 40%;
+    margin-top: 20%;
+    font-weight: bold;
+}
+
+.o {
+    color: rgb(79, 189, 233);
+    font-size: 190px;
+    text-shadow: 2px 2px #217580;
+    left: 5%;
+    top: -3%;
+    z-index: -1;
+    font-weight: bold; 
+    position:absolute;
+    transform: rotate(20deg);
+}
+
+div, .o  {
+    animation-name: small;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes small {
+    0% {
+        font-size: 140px;   
+        transform: translate3d(0);
+    }
+    25% {
+        font-size: 120px;
+    }
+    50% {
+        font-size: 100px;
+    }
+    75% {
+        font-size: 80px;
+    }
+    100% {
+        font-size: 60px;
+        transform: translate3d(30px);
+    }
+
+}
+

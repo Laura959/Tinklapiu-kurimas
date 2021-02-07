@@ -1,0 +1,106 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    background-image: url(../paveikslėliai/pattern1.jpg);
+}
+
+.white {
+    background-color: white;
+}
+
+.bg-dark{
+    padding-left: 25px;
+}
+
+.card {
+    min-width: 18rem;
+}
+
+.list-inline li:before {
+	content: '\00a0\2022\00a0\00a0';
+	color:#999;
+	color:rgba(0,0,0,0.5);
+    font-size:11px;
+    
+}
+.list-inline li:first-child:before {
+    content: '';
+
+}
+
+.list-inline-item {
+    margin-left: -3%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1px
+}
+
+.list-inline {
+    margin-left: 5%;
+}
+
+.kortele {
+    margin-left:-7%;
+}
+
+@media (min-width: 350px) { 
+.foodf {
+    width: 18rem;
+}
+
+body {
+    width: 310px;
+}
+}
+@media (min-width: 990px) { 
+body {
+     min-width: 610px;
+}
+
+.h5 {
+    font-size: 28px;
+}
+
+.container1 {
+    display:flex;
+    flex-direction: row;
+}
+
+.food {
+    min-width: 37rem;
+}
+
+.foodf {
+    min-width: 37rem;
+    margin-left: -3%;
+}
+}
+
+@media (min-width: 1440px) { 
+    body {
+        min-width: 800px;
+   }
+   
+   .h5 {
+       font-size: 30px;
+   }
+   
+   .container1 {
+       display:flex;
+       flex-direction: row;
+   }
+   
+   .food {
+       min-width: 37rem;
+   }
+   
+   .foodf {
+       min-width: 49rem;
+       margin-left: -2%;
+   }
+
+   .apacia{
+       min-width: 24rem;
+       margin-left:-4.3%;
+   }
+ }
+ 
